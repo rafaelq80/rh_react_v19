@@ -1,9 +1,9 @@
 import {
-  FacebookLogo,
-  InstagramLogo,
-  LinkedinLogo,
+  FacebookLogoIcon,
+  InstagramLogoIcon,
+  LinkedinLogoIcon,
 } from "@phosphor-icons/react";
-import { useContext, ReactNode } from "react";
+import { useContext, type ReactNode } from "react";
 import AuthContext from "../../contexts/AuthContext";
 
 function Footer() {
@@ -26,16 +26,16 @@ function Footer() {
               href="https://www.linkedin.com/school/generationbrasil"
               target="_blank"
             >
-              <LinkedinLogo size={48} weight="bold" />
+              <LinkedinLogoIcon size={48} weight="bold" />
             </a>
             <a
               href="https://www.instagram.com/generationbrasil"
               target="_blank"
             >
-              <InstagramLogo size={48} weight="bold" />
+              <InstagramLogoIcon size={48} weight="bold" />
             </a>
             <a href="https://www.facebook.com/generationbrasil" target="_blank">
-              <FacebookLogo size={48} weight="bold" />
+              <FacebookLogoIcon size={48} weight="bold" />
             </a>
           </div>
         </div>
